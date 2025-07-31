@@ -1,6 +1,6 @@
 <h1>🍽️ Responsive Recipe Page</h1>
 
-<p><strong>Project #11</strong> – A clean and elegant recipe page created using only <strong>HTML</strong> and <strong>CSS</strong>. This project is fully responsive and supports both English and Arabic languages (RTL layout included). The recipe featured is a classic and simple <strong>Omelette</strong> with easy-to-follow instructions and nutritional info.</p>
+<p> A clean and elegant recipe page created using only <strong>HTML</strong> and <strong>CSS</strong>. This project is fully responsive and supports both English and Arabic languages (RTL layout included). The recipe featured is a classic and simple <strong>Omelette</strong> with easy-to-follow instructions and nutritional info.</p>
 
 <hr>
 
