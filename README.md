@@ -2,6 +2,10 @@
 
 <p> A clean and elegant recipe page created using only <strong>HTML</strong> and <strong>CSS</strong>. This project is fully responsive and supports both English and Arabic languages (RTL layout included). The recipe featured is a classic and simple <strong>Omelette</strong> with easy-to-follow instructions and nutritional info.</p>
 
+<h2>📸 Preview</h2>
+<div align="center">
+<viedo> src="ourpage.mp4" width="600"</viedo>
+</div>
 <hr>
 
 <h2>📱 Mobile-Friendly</h2>
