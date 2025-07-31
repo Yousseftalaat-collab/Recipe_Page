@@ -4,7 +4,7 @@
 
 <h2>📸 Preview</h2>
 <div align="center">
-<video src="ourpage.mp4" controls width="500"></video>
+<img src="mypage.gif" width="600" />
 </div>
 <hr>
 
