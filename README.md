@@ -4,7 +4,7 @@
 
 <h2>📸 Preview</h2>
 <div align="center">
-<viedo> src="ourpage.mp4" width="600"</viedo>
+<video src="ourpage.mp4" controls width="500"></video>
 </div>
 <hr>
 
