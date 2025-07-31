@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+ol {
+  counter-reset: step-counter;
+}
+
+.container {
+  background-color: white;
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 80%;
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 15px;
+}
+
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+ul:first-of-type {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+ul:first-of-type li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul:first-of-type li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+h2:nth-of-type(1) {
+  margin-top: 20px;
+}
+
+ul:not(:first-of-type) {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+ul:not(:first-of-type) li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+ol {
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+ol li {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  counter-increment: step-counter;
+  list-style: none;
+  position: relative;
+}
+
+ol li::before {
+  content: counter(step-counter) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  width: 25px;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 15px 10px;
+}
+
+table th {
+  font-weight: normal;
+  color: hsl(24, 5%, 18%);
+}
+
+table td {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .recipe-title {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  table th,
+  table td {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+}
+html[lang="ar"] ol.arabic-list {
+  list-style-type: arabic-indic;
+  direction: rtl;
+  text-align: right;
+  padding-right: 20px;
+  list-style-position: inside;
+}
+.lang-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: hsl(14, 45%, 36%);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.lang-switch a {
+  color: white;
+  text-decoration: none;
+}
+
+.lang-switch:hover {
+  background-color: hsl(14, 45%, 26%);
+}

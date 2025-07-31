@@ -1,0 +1,116 @@
+/* style-recipe-ar.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+  text-align: right;
+}
+
+.container {
+  background-color: white;
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 80%;
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 15px;
+}
+
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-position: inside;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+ol.arabic-list {
+  list-style-type: arabic-indic;
+  list-style-position: inside;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+ol.arabic-list li {
+  margin-bottom: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+}
+
+.translate-link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(14, 45%, 36%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.lang-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: hsl(14, 45%, 36%);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.lang-switch a {
+  color: white;
+  text-decoration: none;
+}
+
+.lang-switch:hover {
+  background-color: hsl(14, 45%, 26%);
+}
